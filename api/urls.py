@@ -6,6 +6,7 @@ urlpatterns = [
 
 
     path('get_services', views.GetServices.as_view()),
+    path('get_index_services', views.GetIndexServices.as_view()),
     path('get_index_cars', views.GetIndexCars.as_view()),
 
     path('get_cars_by_service', views.GetCarsByService.as_view()),
